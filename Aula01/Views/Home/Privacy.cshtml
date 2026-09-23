@@ -1,6 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Informaçoes</h5>
+        <p><strong>Nome do usuario</strong>@ViewBag.Nome</p>
+        <p><strong>Endereço do usuario</strong>@ViewBag.Endereço</p>
+        <p><strong>Email do usuario</strong>@ViewBag.Email</p>
+    </div>
+</div>
 
-<p>Use this page to detail your site's privacy policy.</p>
+
